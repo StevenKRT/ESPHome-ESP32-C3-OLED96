@@ -99,9 +99,11 @@ Typische Bezeichnungen:
 
 ## Beispiel
 
+´´´
 [i] Update
 Firmware wird installiert
 Bitte warten
+´´´
 
 ---
 
