@@ -32,12 +32,12 @@ Die Integration erfolgt in **Home Assistant** über die native **ESPHome-API** (
 - 3,3 V Stromversorgung
 
 AliExpress:  
-[0,96 Zoll IIC Serielles 4-poliges weißes/blaues/gelbes blaues/gelbes OLED-Anzeigemodul 128 x 64 12864 LCD-Bildschirmplatine für Arduino Oled](https://s.click.aliexpress.com/e/_EQnslT2)
-[ESP32-C3 Entwicklungsboard ESP32 SuperMini Entwicklungsboard für Arduino](https://s.click.aliexpress.com/e/_EQ6hSTq)
-[DuPont-Kabelverbindung](https://s.click.aliexpress.com/e/_EymMQYY)
+- [0,96 Zoll IIC Serielles 4-poliges weißes/blaues/gelbes blaues/gelbes OLED-Anzeigemodul 128 x 64 12864 LCD-Bildschirmplatine für Arduino Oled](https://s.click.aliexpress.com/e/_EQnslT2)
+- [ESP32-C3 Entwicklungsboard ESP32 SuperMini Entwicklungsboard für Arduino](https://s.click.aliexpress.com/e/_EQ6hSTq)
+- [DuPont-Kabelverbindung](https://s.click.aliexpress.com/e/_EymMQYY)
 
 3D-Druck:
-[Supereinfache PC-Überwachung/Uhr OLED 0.96](https://makerworld.com/de/models/2051935-3eu-super-simple-pc-monitoring-clock-oled-0-96#profileId-2214691)
+- [Supereinfache PC-Überwachung/Uhr OLED 0.96](https://makerworld.com/de/models/2051935-3eu-super-simple-pc-monitoring-clock-oled-0-96#profileId-2214691)
 
 ---
 
