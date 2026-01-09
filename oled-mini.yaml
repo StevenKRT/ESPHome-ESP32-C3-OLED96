@@ -11,7 +11,7 @@ logger:
 
 api:
     encryption:
-        key: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        key: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     services:
         - service: push_message
           variables:
@@ -266,7 +266,7 @@ wifi:
     password: !secret wifi_password
     ap:
         ssid: "Oled-Mini Fallback Hotspot"
-        password: "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+        password: "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
 
 captive_portal:
 
@@ -552,24 +552,27 @@ display:
               }
           }
 
+          // Progress overlay (Footer, immer zuletzt)
           if (id(progress_enabled)) {
-              const int label_y = 46;
-              const int bar_x = 0;
-              const int bar_y = 56;
-              const int bar_w = 128;
-              const int bar_h = 8;
+              const int footer_top = 44;
 
-              // Bereich explizit leeren, damit nichts "durchscheint"
-              it.filled_rectangle(0, 46, 128, 18);
+              const int label_y = footer_top;
+              const int bar_x = 6;
+              const int bar_y = footer_top + 10;
+              const int bar_w = 116;
+              const int bar_h = 6;
 
+              // Label
               if (!id(progress_label).empty()) {
                   it.printf(0, label_y, id(font_small), "%s", id(progress_label).c_str());
               } else {
                   it.printf(0, label_y, id(font_small), "Fortschritt: %d%%", id(progress_percent));
               }
 
+              // Rahmen
               it.rectangle(bar_x, bar_y, bar_w, bar_h);
 
+              // Füllung
               int p = id(progress_percent);
               if (p < 0) p = 0;
               if (p > 100) p = 100;
