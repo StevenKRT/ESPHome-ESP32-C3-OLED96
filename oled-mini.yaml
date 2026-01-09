@@ -388,8 +388,7 @@ display:
           it.clear();
           it.strftime(96, 0, id(font_small), "%H:%M", id(ha_time).now());
 
-          const int progress_reserved = id(progress_enabled) ? 18 : 0;
-          const int content_bottom = 64 - progress_reserved;
+          const int content_bottom = id(progress_enabled) ? 44 : 64;
 
           std::string title = id(cur_title);
           std::string body = id(cur_body);
